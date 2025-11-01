@@ -1,0 +1,16 @@
+{
+    "name": "whitem/business-card-php",
+    "description": "home project by x-page",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Whitem\\BusinessCardPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "white-m"
+        }
+    ],
+    "require": {}
+}
