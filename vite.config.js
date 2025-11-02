@@ -2,7 +2,7 @@ import {defineConfig} from 'vite'
 
 export default defineConfig({
     build: {
-        outDir: './public',
+        outDir: './dist',
         manifest: true,
         rollupOptions: {
             input: 'src/scripts/main.js',
