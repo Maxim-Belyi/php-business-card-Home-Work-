@@ -1,6 +1,11 @@
-import { defineConfig } from 'vite'
+import {defineConfig} from 'vite'
 
 export default defineConfig({
-  base: '/business-card/',
-  plugins: [], 
+    build: {
+        outDir: './dist',
+        manifest: true,
+        rollupOptions: {
+            input: 'src/scripts/main.js',
+        },
+    },
 })

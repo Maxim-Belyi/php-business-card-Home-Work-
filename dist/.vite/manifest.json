@@ -1,0 +1,23 @@
+{
+  "src/scripts/main.js": {
+    "file": "assets/main-CLwh9RDM.js",
+    "name": "main",
+    "src": "src/scripts/main.js",
+    "isEntry": true,
+    "css": [
+      "assets/main-rsS2YNzE.css"
+    ],
+    "assets": [
+      "assets/RobotoSlab-BIwDrsi4.woff2",
+      "assets/Rounded-D2LlUQ0r.woff2"
+    ]
+  },
+  "src/styles/fonts/RobotoSlab.woff2": {
+    "file": "assets/RobotoSlab-BIwDrsi4.woff2",
+    "src": "src/styles/fonts/RobotoSlab.woff2"
+  },
+  "src/styles/fonts/Rounded.woff2": {
+    "file": "assets/Rounded-D2LlUQ0r.woff2",
+    "src": "src/styles/fonts/Rounded.woff2"
+  }
+}
