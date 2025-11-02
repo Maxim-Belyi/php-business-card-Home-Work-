@@ -8,6 +8,10 @@
 </head>
 <body>
 
+<?php
+require_once "constants.php";
+?>
+
 <header>
     <section class="hero">
         <div class="hero__ellipse" aria-hidden="true">
@@ -53,10 +57,10 @@
         <div class="hero__description">
             <h1 class="hero__title">
                 Привет, меня зовут
-                <span class="hero__title title--highlight">Максим!</span>
+                <span class="hero__title title--highlight"><?= $userName; ?>!</span>
             </h1>
             <p class="hero__about">
-                Мне 33 года, в свободное от работы время я занимаюсь разработкой
+                Мне <?= $userAge; ?> года, в свободное от работы время я занимаюсь разработкой
             </p>
             <p class="hero__interests">
                 В свободное от разработки и работы время я хожу в зал, играю в комп
@@ -65,10 +69,10 @@
         </div>
         <img
                 class="hero__image"
-                src="/public/images/me.avif"
+                src=<?= $userImage; ?>
                 alt="my photo"
-                width="432"
-                height="535"
+        width="432"
+        height="535"
         />
     </section>
 </header>
