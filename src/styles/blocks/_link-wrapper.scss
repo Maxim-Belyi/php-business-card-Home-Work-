@@ -1,0 +1,21 @@
+@use "../helpers" as *;
+
+.link-wrapper {
+  display: flex;
+  align-items: center;
+  gap: fluid(40, 22);
+}
+
+.link-item {
+  font-size: fluid(22, 14);
+  text-transform: uppercase;
+  color: var(--color-white-accent);
+
+  &.active {
+    color: var(--color-orange);
+  }
+  &:hover {
+    color: var(--color-orange);
+    text-decoration: underline;
+  }
+}

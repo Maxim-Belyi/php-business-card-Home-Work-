@@ -127,4 +127,6 @@
           </li>
         </ul>
       </div>
-    </footer>
+    <script type="module" src="/dist/assets/main-Bc599Lsk.js"></script>
+
+</footer>
