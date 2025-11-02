@@ -1,4 +1,4 @@
-    <?php $currentPage = $_SERVER['REQUEST_URI'] ?>
+<?php $currentPage = $_SERVER['REQUEST_URI'] ?>
     
     <div>
            <ul  class="link-wrapper">
@@ -20,6 +20,6 @@
            </ul>
     </div>
 
-            <?php include('templates/technology-stack.php'); ?>
+<?php include('templates/technology-stack.php'); ?>
 
 
