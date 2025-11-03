@@ -5,7 +5,7 @@
         <div class="swiper-wrapper">
             <div class="projects__item swiper-slide">
                 <img
-                    src="/public/images/coffe.avif"
+                    src="/templates/images/coffe.avif"
                     alt="web site image"
                     loading="lazy"
                 />
@@ -23,7 +23,7 @@
 
             <div class="projects__item swiper-slide">
                 <img
-                    src="/public/images/honey-bee.avif"
+                    src="/templates/images/honey-bee.avif"
                     alt="web site image"
                     loading="lazy"
                 />
@@ -41,7 +41,7 @@
 
             <div class="projects__item swiper-slide">
                 <img
-                    src="/public/images/racing-js.avif"
+                    src="/templates/images/racing-js.avif"
                     alt="web site image"
                     loading="lazy"
                 />
@@ -59,7 +59,7 @@
 
             <div class="projects__item swiper-slide">
                 <img
-                    src="/public/images/medieval-times.avif"
+                    src="/templates/images/medieval-times.avif"
                     alt="web site image"
                     loading="lazy"
                 />
@@ -77,7 +77,7 @@
 
             <div class="projects__item swiper-slide">
                 <img
-                    src="/public/images/to-do.avif"
+                    src="/templates/images/to-do.avif"
                     alt="web site image"
                     loading="lazy"
                 />

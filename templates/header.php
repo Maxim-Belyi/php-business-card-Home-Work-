@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="/dist/assets/main-Df5nSMHR.css">
+    <link rel="stylesheet" href="/templates/assets/main-Df5nSMHR.css">
     <title>Giga School</title>
 </head>
 <body>

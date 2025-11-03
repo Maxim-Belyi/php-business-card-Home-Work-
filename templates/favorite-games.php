@@ -9,7 +9,7 @@
         </button>
         <img
                 class="games__image"
-                src="/public/images/games-image/dota2.webp"
+                src="/templates/images/games-image/dota2.webp"
                 alt="game image"
                 loading="lazy"
         />
@@ -37,7 +37,7 @@
         </button>
         <img
                 class="games__image"
-                src="/public/images/games-image/tww.webp"
+                src="/templates/images/games-image/tww.webp"
                 alt="game image"
                 loading="lazy"
         />
@@ -61,7 +61,7 @@
         </button>
         <img
                 class="games__image"
-                src="/public/images/games-image/divinity.webp"
+                src="/templates/images/games-image/divinity.webp"
                 alt="game image"
                 loading="lazy"
         />
@@ -85,7 +85,7 @@
         </button>
         <img
                 class="games__image"
-                src="/public/images/games-image/bg3.webp"
+                src="/templates/images/games-image/bg3.webp"
                 alt="game image"
                 loading="lazy"
         />
