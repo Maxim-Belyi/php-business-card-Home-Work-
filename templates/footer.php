@@ -132,6 +132,6 @@ require_once 'constants.php';
             </li>
         </ul>
     </div>
-    <script type="module" src="/dist/assets/main-Bc599Lsk.js"></script>
+    <script type="module" src="/templates/assets/main-Bc599Lsk.js"></script>
 
 </footer>

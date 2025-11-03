@@ -4,7 +4,7 @@
     <ul class="stack__list">
         <li class="stack__list-item">
             <img
-                src="public/icons/html.png"
+                src="templates/icons/html.png"
                 alt="logo"
                 width="120"
                 height="120"
@@ -14,7 +14,7 @@
 
         <li class="stack__list-item">
             <img
-                src="public/icons/css.png"
+                src="templates/icons/css.png"
                 alt="logo"
                 width="120"
                 height="120"
@@ -24,7 +24,7 @@
 
         <li class="stack__list-item">
             <img
-                src="public/icons/sass.png"
+                src="templates/icons/sass.png"
                 alt="logo"
                 width="120"
                 height="120"
@@ -34,7 +34,7 @@
 
         <li class="stack__list-item">
             <img
-                src="public/icons/javascript.png"
+                src="templates/icons/javascript.png"
                 alt="logo"
                 width="120"
                 height="120"
