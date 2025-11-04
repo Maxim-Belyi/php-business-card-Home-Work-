@@ -1,20 +1,20 @@
 @use "../helpers" as *;
 
 .swiper {
-  max-width: 80%;
+  max-width: 80%  !important;
 
   @include w1200 {
-    max-width: 100%;
+    max-width: 100%  !important;
   }
 
   &-button {
-    --swiper-navigation-top-offset: 60%;
-    width: fluid(44, 18);
-    height: fluid(44, 18);
-    color: var(--color-white-accent);
+    --swiper-navigation-top-offset: 60%  !important; 
+    width: fluid(44, 18)  !important;
+    height: fluid(44, 18)  !important;
+    color: var(--color-white-accent)  !important;
 
     @include w660 {
-      display: none;
+      display: none  !important;
     }
   }
 }

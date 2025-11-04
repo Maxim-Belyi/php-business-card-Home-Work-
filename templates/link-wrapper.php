@@ -20,6 +20,6 @@
            </ul>
     </div>
 
-<?php include('templates/technology-stack.php'); ?>
+
 
 
