@@ -54,10 +54,10 @@
             <div class="hero__description">
                 <h1 class="hero__title">
                     Привет, меня зовут
-                    <span class="hero__title title--highlight"><?= $userName; ?>!</span>
+                    <span class="hero__title title--highlight"><?= USER_NAME; ?>!</span>
                 </h1>
                 <p class="hero__about">
-                    Мне <?= $userAge; ?> года, в свободное от работы время я занимаюсь разработкой
+                    Мне <?= USER_AGE; ?> года, в свободное от работы время я занимаюсь разработкой
                 </p>
                 <p class="hero__interests">
                     В свободное от разработки и работы время я хожу в зал, играю в комп
@@ -66,8 +66,8 @@
             </div>
             <img
                 class="hero__image"
-                src=<?= $userImage; ?>
-                alt="my photo"
+                src=<?= USER_IMAGE; ?>
+                alt="me"
                 width="432"
                 height="535" />
         </section>

@@ -1,5 +1,5 @@
-<?php include('header.php'); ?>
-<?php include('link-wrapper.php'); ?>
+<?php include_once 'header.php'; ?>
+<?php include_once 'link-wrapper.php'; ?>
 
 <section>
     <h2 class="games__content-title">Мои любимые игры</h2>
@@ -20,4 +20,4 @@
     </ul>
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include_once 'footer.php'; ?>

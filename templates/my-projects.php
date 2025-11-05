@@ -1,5 +1,5 @@
-<?php include('header.php'); ?>
-<?php include('link-wrapper.php'); ?>
+<?php include_once 'header.php'; ?>
+<?php include_once 'link-wrapper.php'; ?>
 
 <section>
 <?php
@@ -28,4 +28,4 @@
     ?>
 
 </section>
-<?php include('footer.php'); ?>
+<?php include_once 'footer.php'; ?>

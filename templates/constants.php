@@ -1,10 +1,10 @@
 <?php
-$userName = 'Максим';
-$userAge = '33';
-$userImage = '/templates/images/me.avif';
-$userTelegram = 'https://t.me/the_white_m';
-$userEmail = 'mailto:btf9458@gmail.com';
-$userGithub = 'https://github.com/Maxim-Belyi';
+define('USER_NAME', 'Максим');
+define('USER_AGE', '33');
+define('USER_IMAGE', '/templates/images/me.avif');
+define('USER_TELEGRAM', 'https://t.me/the_white_m');
+define('USER_EMAIL', 'mailto:btf9458@gmail.com');
+define('USER_GITHUB','https://github.com/Maxim-Belyi');
 
 $technologyStack = [
     [
@@ -36,17 +36,17 @@ $socials = [
         'contacts' => [
             [
                 'name' => 'telegram',
-                'link' => $userTelegram,
+                'link' => USER_TELEGRAM,
                 'image' => '/templates/icons/telegram.svg'
             ],
             [
                 'name' => 'email',
-                'link' => $userEmail,
+                'link' => USER_EMAIL,
                 'image' => '/templates/icons/email.svg'
             ],
             [
                 'name' => 'github',
-                'link' => $userGithub,
+                'link' =>USER_GITHUB,
                 'image' => '/templates/icons/github.svg'
             ],
         ],

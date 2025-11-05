@@ -21,4 +21,4 @@ require_once "constants.php" ?>
             echo "</ul>";
         } ?>
     </div>
-</section
+</section>

@@ -1,9 +1,9 @@
-<?php include('templates/header.php'); ?>
+<?php include_once 'templates/header.php'; ?>
 
 <main>
-  <?php include('templates/link-wrapper.php'); ?>
-    <?php include('templates/technology-stack.php'); ?>
+  <?php include_once 'templates/link-wrapper.php'; ?>
+    <?php include_once 'templates/technology-stack.php'; ?>
 </main>
-<?php include 'templates/footer.php'; ?>
+<?php include_once 'templates/footer.php'; ?>
 
 </html>
