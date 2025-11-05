@@ -1,7 +1,7 @@
 <?php
 require_once "constants.php" ?>
 
-<div>
+<section>
     <h2 class="stack__content-title">Технологический стэк</h2>
     <div class="stack__wrapper">
         <?php foreach ($technologyStack as $category) {
@@ -21,3 +21,4 @@ require_once "constants.php" ?>
             echo "</ul>";
         } ?>
     </div>
+</section
