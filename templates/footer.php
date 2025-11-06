@@ -1,4 +1,5 @@
 <?php
+global $socials;
 require_once 'constants.php';
 ?>
 
@@ -11,10 +12,10 @@ require_once 'constants.php';
             foreach ($contact['contacts'] as $icon) {
                 echo "<li class='footer__item'>";
                 echo '<a 
-                        href=" ' . htmlspecialchars($icon['link']) . '"
+                        href=" ' . ($icon['link']) . '"
                         target = "_blank"
-                        aria-label = "' . htmlspecialchars($icon['name']) . '"
-                        title="' . htmlspecialchars($icon['title']) . '"
+                        aria-label = "' . htmlspecialchars($icon['name'] ?? '') . '"
+                        title="' . htmlspecialchars($icon['title'] ?? '') . '"
                            >';
                 echo '<img
                      src="' . htmlspecialchars($icon['image']) . '"/>';

@@ -46,7 +46,7 @@ $socials = [
             ],
             [
                 'name' => 'github',
-                'link' =>USER_GITHUB,
+                'link' => USER_GITHUB,
                 'image' => '/templates/icons/github.svg'
             ],
         ],

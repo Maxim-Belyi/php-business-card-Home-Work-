@@ -10,10 +10,10 @@ require_once "constants.php" ?>
             foreach ($category['technologies'] as $tech) {
                 echo '<li class="stack__list-item">';
                 echo '<img 
-                         src="' . htmlspecialchars($tech['image']) . '" 
-                         alt="Логотип ' . htmlspecialchars($tech['name']) . '" 
-                         width="120" 
-                         height="120" 
+                         src="' . htmlspecialchars($tech['image']) . '";
+                         alt="Логотип ' . htmlspecialchars($tech['name']) . '";
+                         width="120";
+                         height="120";
                          />';
                 echo '<p>' . htmlspecialchars($tech['name']) . '</p>';
                 echo '</li>';
